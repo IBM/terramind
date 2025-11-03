@@ -1,9 +1,9 @@
 [![Website](https://img.shields.io/badge/Website-TerraMind-0F62FE)](https://ibm.github.io/terramind/)
 [![arXiv](https://img.shields.io/badge/arXiv-2504.11171-b31b1b?logo=arxiv)](https://arxiv.org/abs/2504.11171)
-[![Docs](https://img.shields.io/badge/Docs-EE4B2B?logo=materialformkdocs&logoColor=fff)](https://ibm.github.io/terratorch/stable/guide/terramind/)
+[![Docs](https://img.shields.io/badge/Docs-EE4B2B?logo=materialformkdocs&logoColor=fff)](https://terrastackai.github.io/terratorch/stable/guide/terramind/)
 [![HuggingFace](https://img.shields.io/badge/Hugging_Face-IBM--ESA--Geospaital-FFD21E?logo=huggingface)](https://huggingface.co/ibm-esa-geospatial)
 [![Downloads](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/IBM/terramind/webpage/assets/hf_monthly_downloads.json)](https://huggingface.co/ibm-esa-geospatial/TerraMind-1.0-base)
-[![Code](https://img.shields.io/badge/Model_code-TerraTorch-EE4B2B?logo=github)](https://github.com/IBM/terratorch/tree/main/terratorch/models/backbones/terramind)
+[![Code](https://img.shields.io/badge/Model_code-TerraTorch-EE4B2B?logo=github)](https://github.com/terrastackai/terratorch/tree/main/terratorch/models/backbones/terramind)
 [![IBMblog](https://img.shields.io/badge/Blog-IBM-0F62FE)](https://research.ibm.com/blog/terramind-esa-earth-observation-model)
 [![ESAblog](https://img.shields.io/badge/Blog-ESA-113145)](https://www.esa.int/Applications/Observing_the_Earth/ESA_and_IBM_collaborate_on_TerraMind)
 [![Challenge](https://img.shields.io/badge/Website-Blue--sky_Challenge-0F62FE)](https://huggingface.co/spaces/ibm-esa-geospatial/challenge)
@@ -17,7 +17,7 @@ We’re honored to present our work at one of the most prestigious conferences i
 
 TerraMind is the first any-to-any generative foundation model for Earth Observation, build by IBM, ESA Φ-lab, and the FAST-EO project.
 We pre-trained a [tiny](https://huggingface.co/ibm-esa-geospatial/TerraMind-1.0-tiny), [small](https://huggingface.co/ibm-esa-geospatial/TerraMind-1.0-small), [base](https://huggingface.co/ibm-esa-geospatial/TerraMind-1.0-base) and a [large](https://huggingface.co/ibm-esa-geospatial/TerraMind-1.0-large) version of TerraMind, all open-sourced on HuggingFace. 
-The models are fully integrated into the fine-tuning toolkit [TerraTorch](https://ibm.github.io/terratorch/), and we provide documentation for TerraMind [here](https://ibm.github.io/terratorch/stable/guide/terramind/).
+The models are fully integrated into the fine-tuning toolkit [TerraTorch](https://terrastackai.github.io/terratorch/), and we provide documentation for TerraMind [here](https://terrastackai.github.io/terratorch/stable/guide/terramind/).
 
 This repo presents code examples for fine-tuning TerraMind, using the Thinking-in-Modalities approach, and for any-to-any generations.
 We refer to [Hugging Face](https://huggingface.co/ibm-esa-geospatial/TerraMind-1.0-base) and [arXiv](https://arxiv.org/abs/2504.11171) for more detailed information. 
@@ -40,7 +40,7 @@ You can verify the setup by running `terratorch --help`.
 
 ## Fine-tuning
 
-You can fine-tune TerraMind without any code using a Lightning config and [TerraTorch](https://ibm.github.io/terratorch/): 
+You can fine-tune TerraMind without any code using a Lightning config and [TerraTorch](https://terrastackai.github.io/terratorch/): 
 
 ```shell
 terratorch fit -c <terramind_config.yaml>

@@ -44,7 +44,7 @@ model:
       backbone_bands:
         S2L2A: ["BLUE", "GREEN", "RED", "NIR_NARROW", "SWIR_1", "SWIR_2"]
 
-      # Apply temporal wrapper (docs: https://ibm.github.io/terratorch/stable/guide/temporal_wrapper/)
+      # Apply temporal wrapper (docs: https://terrastackai.github.io/terratorch/stable/guide/temporal_wrapper/)
       backbone_use_temporal: true
       backbone_temporal_pooling: concat # Defaults to "mean" which also supports flexible input lengths
       backbone_temporal_n_timestamps: 3 # Required for pooling = concat
