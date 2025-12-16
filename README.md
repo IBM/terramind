@@ -10,8 +10,8 @@
 
 [//]: # (Weekly updates of downloads. See .github/workflows/hf-downloads.yml for configuration.)
 
-### TerraMind has been accepted at ICCV 2025 🎉  
-We’re honored to present our work at one of the most prestigious conferences in computer vision. Stay tuned for more details!
+### TerraMind was accepted at ICCV 2025 🎉  
+We were honored to present [our work](https://openaccess.thecvf.com/content/ICCV2025/html/Jakubik_TerraMind_Large-Scale_Generative_Multimodality_for_Earth_Observation_ICCV_2025_paper.html) at one of the most prestigious conferences in computer vision. [[pdf](https://openaccess.thecvf.com/content/ICCV2025/papers/Jakubik_TerraMind_Large-Scale_Generative_Multimodality_for_Earth_Observation_ICCV_2025_paper.pdf)]
 
 # TerraMind 1.0
 
