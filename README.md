@@ -17,7 +17,7 @@ We were honored to present [our work](https://openaccess.thecvf.com/content/ICCV
 
 TerraMind is the first any-to-any generative foundation model for Earth Observation, build by IBM, ESA Φ-lab, and the FAST-EO project.
 We pre-trained a [tiny](https://huggingface.co/ibm-esa-geospatial/TerraMind-1.0-tiny), [small](https://huggingface.co/ibm-esa-geospatial/TerraMind-1.0-small), [base](https://huggingface.co/ibm-esa-geospatial/TerraMind-1.0-base) and a [large](https://huggingface.co/ibm-esa-geospatial/TerraMind-1.0-large) version of TerraMind, all open-sourced on HuggingFace. 
-The models are fully integrated into the fine-tuning toolkit [TerraTorch](https://terrastackai.github.io/terratorch/), and we provide documentation for TerraMind [here](https://terrastackai.github.io/terratorch/stable/guide/terramind/).
+The models are fully integrated into the fine-tuning toolkit [TerraTorch](https://github.com/torchgeo/terratorch), and we provide documentation for TerraMind [here](https://terrastackai.github.io/terratorch/stable/guide/terramind/).
 
 This repo presents code examples for fine-tuning TerraMind, using the Thinking-in-Modalities approach, and for any-to-any generations.
 We refer to [Hugging Face](https://huggingface.co/ibm-esa-geospatial/TerraMind-1.0-base) and [arXiv](https://arxiv.org/abs/2504.11171) for more detailed information. 
