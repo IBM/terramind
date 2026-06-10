@@ -6,7 +6,6 @@
 [![Code](https://img.shields.io/badge/Model_code-TerraTorch-EE4B2B?logo=github)](https://github.com/terrastackai/terratorch/tree/main/terratorch/models/backbones/terramind)
 [![IBMblog](https://img.shields.io/badge/Blog-IBM-0F62FE)](https://research.ibm.com/blog/terramind-esa-earth-observation-model)
 [![ESAblog](https://img.shields.io/badge/Blog-ESA-113145)](https://www.esa.int/Applications/Observing_the_Earth/ESA_and_IBM_collaborate_on_TerraMind)
-[![Challenge](https://img.shields.io/badge/Website-Blue--sky_Challenge-0F62FE)](https://huggingface.co/spaces/ibm-esa-geospatial/challenge)
 
 [//]: # (Weekly updates of downloads. See .github/workflows/hf-downloads.yml for configuration.)
 
@@ -31,8 +30,8 @@ Download or clone this repo and create a new environment with the latest version
 python -m venv venv # use python 3.11 or higher
 source venv/bin/activate
 pip install --upgrade pip
-pip install "terratorch>=1.2.4"
-pip install jupyter gdown tensorboard "setuptools<81" # required for notebook examples
+pip install "terratorch>=1.2.5"
+pip install jupyter tensorboard "setuptools<81" # required for notebook examples
 pip install diffusers==0.30.0  # required for TerraMind generations
 ```
 
@@ -111,7 +110,7 @@ We provide some example code for using the tokenizer in [terramind_tokenizer_rec
 
 ## Challenge
 
-Already working with TerraMind? Submit your use case to the [TerraMind Blue-Sky Challenge](https://huggingface.co/spaces/ibm-esa-geospatial/challenge), a bi-monthly award spotlighting the boldest, most imaginative ways using TerraMind.
+Interested in what is possible with TerraMind? Check out the submissions and winners of our [TerraMind Blue-Sky Challenge](https://huggingface.co/spaces/ibm-esa-geospatial/challenge).
 
 ## Citation
 
