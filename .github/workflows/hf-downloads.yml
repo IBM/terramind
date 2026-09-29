@@ -8,6 +8,8 @@ on:
 jobs:
   update-downloads:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # required to push the updated badge files
 
     steps:
       - name: Checkout repo
