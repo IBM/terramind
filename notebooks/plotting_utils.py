@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import hex2color, LinearSegmentedColormap
 
 # Plotting utils
+# 'No Data', 'Water', 'Trees', 'Flooded vegetation', 'Crops', 'Built area', 'Bare ground', 'Snow/ice', 'Clouds', 'Rangeland'
 COLORBLIND_HEX = ["#000000", "#3171AD", "#469C76", '#83CA70', "#EAE159", "#C07CB8", "#C19368", "#6FB2E4", "#F1F1F1",
                   "#C66526"]
 COLORBLIND_RGB = [hex2color(hex) for hex in COLORBLIND_HEX]
